@@ -1,9 +1,9 @@
-import React, {Fragment, useState} from "react";
+import React, {useState} from "react";
 import FilmList from "../components/FilmList";
 
 const UpcomingFilmReleases = () => {
 
-    const [films, setFilms] = useState(
+    const [films] = useState(
         [
             {
               id: 1,
