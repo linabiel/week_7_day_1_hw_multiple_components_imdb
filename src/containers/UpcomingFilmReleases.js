@@ -36,6 +36,10 @@ const UpcomingFilmReleases = () => {
         <>
             <h1>Upcoming Film Releases for UK</h1>
             <FilmList films={films}/>
+            <form action="https://www.imdb.com/calendar/?region=gb">
+                <input type="submit" value="View more upcoming releases > >" />
+            </form>
+            {/* <button >View more upcoming releases {'>'} {'>'}</button> */}
         </>
     );
 };
