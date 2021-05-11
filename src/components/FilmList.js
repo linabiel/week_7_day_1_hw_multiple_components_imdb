@@ -16,4 +16,5 @@ const FilmList = ({films}) => {
       )
 }
 
+// Returns the React element
 export default FilmList

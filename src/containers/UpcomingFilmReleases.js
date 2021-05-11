@@ -35,6 +35,7 @@ const UpcomingFilmReleases = () => {
     return(
         <>
             <h1>Upcoming Film Releases for UK</h1>
+            {/* FilmList is a returned React element */}
             <FilmList films={films}/>
             <form action="https://www.imdb.com/calendar/?region=gb">
                 <input type="submit" value="View more upcoming releases > >" />
